@@ -1,0 +1,32 @@
+=============== Apr 15, 2023 (IST) ===============
+23:35:19.579153 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+23:35:19.584139 db@open opening
+23:35:19.586133 version@stat F·[] S·0B[] Sc·[]
+23:35:19.587813 db@janitor F·2 G·0
+23:35:19.587813 db@open done T·3.6744ms
+23:35:19.617350 db@close closing
+23:35:19.617350 db@close done T·0s
+=============== Apr 16, 2023 (IST) ===============
+01:36:49.641484 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+01:36:49.641484 version@stat F·[] S·0B[] Sc·[]
+01:36:49.641484 db@open opening
+01:36:49.641484 journal@recovery F·1
+01:36:49.651743 journal@recovery recovering @1
+01:36:49.661775 memdb@flush created L0@2 N·14 S·1KiB "\x19\xe4\x1f..&[\x15,v1":"\xeb<\x84..*0N,v2"
+01:36:49.665828 version@stat F·[1] S·1KiB[1KiB] Sc·[0.25]
+01:36:49.683842 db@janitor F·3 G·0
+01:36:49.683842 db@open done T·42.3578ms
+01:36:49.767186 db@close closing
+01:36:49.767692 db@close done T·506.5µs
+=============== Apr 16, 2023 (IST) ===============
+01:39:08.621332 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+01:39:08.623130 version@stat F·[1] S·1KiB[1KiB] Sc·[0.25]
+01:39:08.623130 db@open opening
+01:39:08.623646 journal@recovery F·1
+01:39:08.629741 journal@recovery recovering @3
+01:39:08.635328 memdb@flush created L0@5 N·9 S·463B "Dat..ion,v16":"unc..own,v24"
+01:39:08.641943 version@stat F·[2] S·1KiB[1KiB] Sc·[0.50]
+01:39:08.662482 db@janitor F·4 G·0
+01:39:08.662482 db@open done T·39.352ms
+01:39:12.530797 db@close closing
+01:39:12.531330 db@close done T·532.8µs
